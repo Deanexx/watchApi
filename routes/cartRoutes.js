@@ -4,6 +4,10 @@ const express = require('express'),
 const router = express.Router();
 
 router
+    .route('/')
+    .get(cartControllers.newCart);
+
+router
     .route('/:token')
     .get(cartControllers.createCart);
 
