@@ -4,7 +4,7 @@
   "description": "Api for watch App",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemone server.js",
+    "dev": "nodemon server.js",
     "start": "node server.js"
   },
   "repository": {
