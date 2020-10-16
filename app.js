@@ -17,7 +17,7 @@ if(process.env.NODE_ENV === 'development')
 
 app.use(express.json());
 app.use(cors({
-    origin: 'http://localhost:8080/',
+    origin: 'http://localhost:8080',
     optionsSuccessStatus: 200
 }))
                 /*   Routes     */
