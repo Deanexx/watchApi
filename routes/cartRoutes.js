@@ -9,7 +9,7 @@ router
 
 router
     .route('/:token')
-    .get(cartControllers.createCart);
+    .get(cartControllers.findCart);
 
 router.delete('/:token', cartControllers.removeCart)
 

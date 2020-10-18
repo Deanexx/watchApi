@@ -16,13 +16,13 @@ exports.newCart = catchAsync(async (req, res, next) => {
 })
 
 
-exports.createCart = catchAsync(async (req, res, next) => {
+exports.findCart = catchAsync(async (req, res, next) => {
         let flag = false;
         let isCart = await cartModel.findById(req.params.token);
 
         if(!isCart || isCart.date < Date.now())
         {
-            flag = true;
+            flag = true
             isCart = await cartModel.create({ items: [] });
         }
 
