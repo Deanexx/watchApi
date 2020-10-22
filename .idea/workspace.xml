@@ -4,7 +4,6 @@
     <list default="true" id="9a313d73-b3d2-47f0-bd45-fdb1a2283555" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/cartController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/cartController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/cartRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/cartRoutes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +21,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../apps/watch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,7 +51,8 @@
       <workItem from="1602358210402" duration="39367000" />
       <workItem from="1602797646999" duration="2960000" />
       <workItem from="1602873731247" duration="8634000" />
-      <workItem from="1603048647506" duration="2311000" />
+      <workItem from="1603048647506" duration="3411000" />
+      <workItem from="1603345928165" duration="454000" />
     </task>
     <servers />
   </component>

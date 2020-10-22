@@ -10,6 +10,7 @@ exports.newCart = catchAsync(async (req, res, next) => {
     res.status(200).json({
         status: "success",
         data: {
+            newCart: true,
             cart
         }
     })
