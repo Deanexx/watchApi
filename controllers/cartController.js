@@ -8,8 +8,11 @@ exports.newCart = catchAsync(async (req, res, next) => {
     const cart = await cartModel.create({ items: [] });
 
     res.status(200).json({
+        status: "success",
+        data: {
             newCart: true,
             cart
+        }
     })
 })
 
@@ -25,8 +28,11 @@ exports.findCart = catchAsync(async (req, res, next) => {
         }
 
         res.status(200).json({
+            status: "success",
+            data: {
                 newCart: flag,
                 isCart
+            }
         })
 })
 
@@ -45,7 +51,10 @@ exports.updateCart = catchAsync(async (req, res, next) => {
     });
 
     res.status(200).json({
+        status: "success",
+        data:  {
             updatedCart
+        }
     })
 })
 
