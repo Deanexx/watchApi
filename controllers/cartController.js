@@ -19,19 +19,19 @@ exports.newCart = catchAsync(async (req, res, next) => {
 
 exports.findCart = catchAsync(async (req, res, next) => {
         let flag = false;
-        let isCart = await cartModel.findById(req.params.token);
+        let cart = await cartModel.findById(req.params.token);
 
-        if(!isCart || isCart.date < Date.now())
+        if(!cart || isCart.date < Date.now())
         {
             flag = true
-            isCart = await cartModel.create({ items: [] });
+            cart = await cartModel.create({ items: [] });
         }
 
         res.status(200).json({
             status: "success",
             data: {
                 newCart: flag,
-                isCart
+                cart
             }
         })
 })
